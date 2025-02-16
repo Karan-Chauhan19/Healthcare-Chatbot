@@ -1,1 +1,3 @@
 # Healthcare-Chatbot
+
+This project involves developing an AI-powered Healthcare Chatbot using a Retrieval-Augmented Generation (RAG) pipeline. The chatbot will assist users in answering medical-related queries, providing health information, and suggesting possible courses of action based on reliable sources. The RAG pipeline ensures accurate and up-to-date responses by retrieving relevant information from a knowledge base before generating responses.
