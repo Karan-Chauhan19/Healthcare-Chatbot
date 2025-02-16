@@ -1,3 +1,8 @@
+'''
+Author : Karan Chauhan
+Github : Karan-Chauhan19
+Organization : L.J University
+'''
 import streamlit as st
 import os
 from retrieval import retrievalQA
