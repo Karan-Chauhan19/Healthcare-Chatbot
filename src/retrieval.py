@@ -1,3 +1,8 @@
+'''
+Author : Karan Chauhan
+Github : Karan-Chauhan19
+Organization : L.J University
+'''
 from helper import Helper
 import model
 from langchain.chains import RetrievalQA
