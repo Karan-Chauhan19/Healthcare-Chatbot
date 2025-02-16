@@ -1,3 +1,9 @@
+'''
+Author : Karan Chauhan
+Github : Karan-Chauhan19
+Organization : L.J University
+'''
+
 import os
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import Chroma
