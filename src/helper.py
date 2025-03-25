@@ -31,7 +31,7 @@ class Helper:
     def get_or_create_embeddings(self):
         """Loads saved embeddings or creates new ones if missing"""
         if os.path.exists(self.db_path):
-            print("✅ Loading existing embeddings...")
+            print("Loading existing embeddings...")
             return Chroma(persist_directory=self.db_path, embedding_function=self.embedding_model)
 
         print("⚡ Creating new embeddings (First Run Only)...")
