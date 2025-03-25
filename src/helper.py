@@ -1,15 +1,15 @@
 '''
-Author : Karan Chauhan
-Github : Karan-Chauhan19
-Organization : L.J University
+author : Karan Chauhan
+github : Karan-Chauhan19
+organization : L.J University
 '''
 
 import os
-from langchain.embeddings import HuggingFaceEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.document_loaders import PyPDFLoader
 import torch
+from langchain.vectorstores import Chroma
+from langchain.embeddings import HuggingFaceEmbeddings
+from langchain_community.document_loaders import PyPDFLoader
+from langchain.text_splitter import RecursiveCharacterTextSplitter
 
 class Helper:
     def __init__(self, db_path="vector_store/chroma_db"):

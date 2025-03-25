@@ -1,12 +1,13 @@
 '''
-Author : Karan Chauhan
-Github : Karan-Chauhan19
-Organization : L.J University
+author : Karan Chauhan
+github : Karan-Chauhan19
+organization : L.J University
 '''
-from helper import Helper
+
 import model
-from langchain.chains import RetrievalQA
 import prompt
+from helper import Helper
+from langchain.chains import RetrievalQA
 
 db = Helper().get_or_create_embeddings()
 

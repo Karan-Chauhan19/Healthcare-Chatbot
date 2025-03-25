@@ -1,8 +1,9 @@
 '''
-Author : Karan Chauhan
-Github : Karan-Chauhan19
-Organization : L.J University
+author : Karan Chauhan
+github : Karan-Chauhan19
+organization : L.J University
 '''
+
 from langchain.prompts import PromptTemplate
 
 prompt_template = """

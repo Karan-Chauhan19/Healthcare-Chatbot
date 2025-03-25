@@ -1,15 +1,14 @@
 '''
-Author : Karan Chauhan
-Github : Karan-Chauhan19
-Organization : L.J University
+author : Karan Chauhan
+github : Karan-Chauhan19
+organization : L.J University
 '''
-from langchain_community.llms import HuggingFaceHub
+
 import os
 from dotenv import load_dotenv
+from langchain_community.llms import HuggingFaceHub
+
 load_dotenv()
-
-
-
 
 os.environ["HUGGINGFACEHUB_API_TOKEN"] = os.getenv("HUGGINGFACEHUB_API_TOKEN")
 

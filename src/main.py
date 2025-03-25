@@ -1,12 +1,13 @@
 '''
-Author : Karan Chauhan
-Github : Karan-Chauhan19
-Organization : L.J University
+author : Karan Chauhan
+github : Karan-Chauhan19
+organization : L.J University
 '''
-import streamlit as st
+
 import os
-from retrieval import retrievalQA
 import re
+import streamlit as st
+from retrieval import retrievalQA
 
 def clean_chatbot_response(response):
     # Define a pattern to match everything before the structured response
